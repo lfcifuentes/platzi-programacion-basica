@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img.billetes {
+            margin:5px;
+            max-width:120px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;">
+        <img src="cajero.gif" />
+        <table border="1" style="margin-left:5px;text-align:center;">
+            <tr>
+                <th width="30px" >100</th>
+                <th width="30px">50</th>
+                <th width="30px">20</th>
+                <th width="30px">10</th>
+                <th width="30px">5</th>
+                <th width="30px">1</th>
+            </tr>
+            <tr>
+                <td id="b100">0</td>
+                <td id="b50">0</td>
+                <td id="b20">0</td>
+                <td id="b10">0</td>
+                <td id="b5">0</td>
+                <td id="b1">0</td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        <input type="number" name="dinero" id="dinero">
+        <button id="button">
+            Extraer
+        </button>
+    </p>
+    <p>
+        <span id="respuesta"></span>
+    </p>
+    <script src="index.js"></script>
+</body>
+</html>
